@@ -3,18 +3,26 @@ body {
   padding: 20px;
   margin: 0;
 }
-h1, h2, p, ul, li {
+
+h1,
+h2,
+p,
+ul,
+li {
   font-family: sans-serif;
 }
+
 ul.header li {
   display: inline;
   list-style-type: none;
   margin: 0;
 }
+
 ul.header {
   background-color: #111;
   padding: 0;
 }
+
 ul.header li a {
   color: #FFF;
   font-weight: bold;
@@ -22,30 +30,36 @@ ul.header li a {
   padding: 20px;
   display: inline-block;
 }
+
 .content {
   background-color: #FFF;
   padding: 20px;
   box-shadow: 0 0 5px #000;
 }
+
 .content h2 {
   padding: 0;
   margin: 0;
 }
+
 .content li {
   margin-bottom: 10px;
 }
+
 .active {
   background-color: #2d8d4d;
 }
+
 #name {
   display: flex;
   justify-content: center;
   justify-items: center;
 }
+
 div .pic {
   display: grid;
   place-content: center;
-  border: 10px #a7a7a7; 
+  border: 10px #a7a7a7;
   border-radius: 50px;
   margin: auto;
   box-shadow: 0 0 10px #000;
@@ -62,4 +76,3 @@ div .fb {
   justify-items: center;
   margin: auto;
 }
-
